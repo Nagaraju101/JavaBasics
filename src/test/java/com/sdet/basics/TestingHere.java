@@ -10,6 +10,7 @@ public class TestingHere
         StringConcept stringConcat = new StringConcept();
         ForLoopConcept loopConcept = new ForLoopConcept();
         ArrayConcept arrayConcept = new ArrayConcept();
+        IncrementDecrementConcept incrementDecrement = new IncrementDecrementConcept();
         System.out.println(stringConcat.getA() + stringConcat.getB());
         System.out.println(stringConcat.getC()+ stringConcat.getD());
     
@@ -21,6 +22,7 @@ public class TestingHere
         System.out.println(arrayConcept.doublArray());
         System.out.println(arrayConcept.stringArray());
         System.out.println(arrayConcept.objectArray());
+        System.out.println(incrementDecrement.incrementDecrement());
         
 
      
