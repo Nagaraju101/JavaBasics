@@ -1,5 +1,7 @@
 package com.sdet.basics;
 
+import java.util.ArrayList;
+
 public class ArrayConcept {
 
     public boolean[] booleanArray() {
@@ -48,6 +50,28 @@ public class ArrayConcept {
         System.out.println(obj[0]);
         return (obj);
     }
+    
+    public ArrayList<String> getStudentNames()
+	{
+		System.out.println("Getting student names method");
+		ArrayList<String> arList = new ArrayList<String>();
+		arList.add("Avi");
+		arList.add("Lucky");
+		arList.add("Sanju");
+		arList.add("naga");
+		return arList;
+	}
+    
+    public int[] getMarks()
+    {
+    	System.out.println("Getting Marks method");
+    	int marks[] = new int[3];
+    	marks[0] = 78;
+    	marks[1] = 82;
+    	marks[2] = 93;
+    	return marks;
+     }
+
 
 
  }
