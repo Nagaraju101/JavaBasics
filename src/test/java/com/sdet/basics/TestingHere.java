@@ -1,5 +1,7 @@
 package com.sdet.basics;
 
+import java.util.ArrayList;
+
 public class TestingHere
 {
 
@@ -10,6 +12,7 @@ public class TestingHere
         StringConcept stringConcat = new StringConcept();
         ForLoopConcept loopConcept = new ForLoopConcept();
         ArrayConcept arrayConcept = new ArrayConcept();
+        MethodsInJava obj  = new MethodsInJava();
         IncrementDecrementConcept incrementDecrement = new IncrementDecrementConcept();
         System.out.println(stringConcat.getA() + stringConcat.getB());
         System.out.println(stringConcat.getC()+ stringConcat.getD());
@@ -23,6 +26,22 @@ public class TestingHere
         System.out.println(arrayConcept.stringArray());
         System.out.println(arrayConcept.objectArray());
         System.out.println(incrementDecrement.incrementDecrement());
+        
+        System.out.println(obj.devision(55, 7));
+        System.out.println(obj.getCountryName("Denver"));
+        ArrayList<String> s = obj.getStudentNames();
+        for (int j = 0; j < s.size() ; j++ ) 
+        {
+        	System.out.println(s.get(j));
+        	
+        }
+      
+        int marks[] = obj.getMarks();
+        for(int i = 0; i < marks.length; i++)
+        {
+        	System.out.println(marks[i]);
+        }
+        
         
 
      

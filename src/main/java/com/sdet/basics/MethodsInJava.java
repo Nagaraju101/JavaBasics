@@ -4,10 +4,16 @@ import java.util.ArrayList;
 
 public class MethodsInJava 
 {
+	
+	public static void main(String[] args)
+	{
+		MethodsInJava obj = new MethodsInJava();
+		obj.test();
+	}
 	//1. No input no return
 	
 	public void test() {
-		System.out.println("No input or No return method");
+		System.out.println("This is just Test method only. No input or No return method");
 	}
 	
 	
@@ -31,6 +37,18 @@ public class MethodsInJava
 		return arList;
 	}
 	
+	public int[] getMarks() 
+	{
+		System.out.println("Get Marks method");
+		int i[] = new int[4];
+		i[0] = 77;
+		i[1] = 78;
+		i[2] = 79;
+		i[3] = 88;
+		return i;
+		
+	}
+	
 	//3. Giving input and return some value
 	public int devision(int x , int y )
 	{
@@ -41,7 +59,7 @@ public class MethodsInJava
 	}
 	
 	//4. Multiple return statement
-	public String getContryName(String cityName)
+	public String getCountryName(String cityName)
 	{
 		System.out.println("Get city name");
 		if ( cityName.equalsIgnoreCase("Hyderabad"))
