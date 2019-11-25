@@ -29,6 +29,7 @@ public class TestingHere
         System.out.println(arrayConcept.stringArray());
         System.out.println(arrayConcept.objectArray());
         
+        
         obj.test();
         obj.getStudentNames();
         System.out.println(obj.devision(55, 7));
@@ -54,6 +55,7 @@ public class TestingHere
         
         StaticNonStatic.distanceFromHome();
         
+        System.out.println(arrayConcept.arrayIndexOutOfBoundaryException());
        
 
      

@@ -19,5 +19,10 @@ public class StaticNonStatic {
 		System.out.println("about 5 miles");
 	}
 	
-
+	public static void main(String[] args) {
+		StaticNonStatic  obj = new StaticNonStatic();
+		
+		System.out.println(name);
+		System.out.println(obj.name);
+	}
  }
