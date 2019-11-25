@@ -14,10 +14,20 @@ public class ArrayConcept {
     
 
     public int[] intArray()
-    {       int i[] = new int[2];
+    {       
+    	int i[] = new int[2];
         i[0] = 4;
         i[1] = 8;
         System.out.println(i[1]);
+        return(i);
+    }
+    
+    public int[] arrayIndexOutOfBoundaryException()
+    {       
+    	int i[] = new int[2];
+        i[0] = 4;
+        i[1] = 8;
+        System.out.println(i[2]);
         return(i);
     }
 
