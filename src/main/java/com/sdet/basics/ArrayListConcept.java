@@ -4,7 +4,9 @@ import java.util.ArrayList;
 
 public class ArrayListConcept
 {
-	public static void main(String[] args) {
+	
+	public void arrayListMethod() 
+	{
 		
 		ArrayList ar = new ArrayList();
 		
@@ -32,6 +34,8 @@ public class ArrayListConcept
 		ArrayList<Integer> arInt = new ArrayList<Integer>();
 		arInt.add(222);
 		arInt.add(333);
+		arInt.add(111);
+		arInt.add(444);
 		System.out.println(arInt.size());
 		System.out.println(arInt.get(1));
 		
