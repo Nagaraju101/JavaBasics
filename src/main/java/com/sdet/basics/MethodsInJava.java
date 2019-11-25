@@ -4,11 +4,12 @@ import java.util.ArrayList;
 
 public class MethodsInJava 
 {
-	
+	static String name = "naga";
 	public static void main(String[] args)
 	{
 		MethodsInJava obj = new MethodsInJava();
 		obj.test();
+		System.out.println(MethodsInJava.name);
 	}
 	//1. No input no return
 	
