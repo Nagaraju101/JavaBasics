@@ -17,6 +17,7 @@ public class TestingHere
         MethodsInJava obj  = new MethodsInJava();
         IncrementDecrementConcept incrementDecrement = new IncrementDecrementConcept();
         StaticNonStatic staticNonStatic = new StaticNonStatic();
+        ArrayListConcept arrayListConcept = new ArrayListConcept();
         
         System.out.println(stringConcat.getA() + stringConcat.getB());
         System.out.println(stringConcat.getC()+ stringConcat.getD());
@@ -59,6 +60,8 @@ public class TestingHere
         //System.out.println(arrayConcept.arrayIndexOutOfBoundaryException());
         
         System.out.println(obj.getMarks());
+        
+        arrayListConcept.arrayListMethod();
        
 
      
