@@ -6,7 +6,8 @@ public class ForLoopConcept {
 
 	//}
 
-	public int doWhileLoop() {
+	public int doWhileLoop() 
+	{
 	    int i = 0; 
 	    while( i < 10 ){
 	        System.out.println(i);

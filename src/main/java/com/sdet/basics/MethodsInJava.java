@@ -41,11 +41,22 @@ public class MethodsInJava
 	public int[] getMarks() 
 	{
 		System.out.println("Get Marks method");
-		int i[] = new int[4];
-		i[0] = 77;
-		i[1] = 78;
-		i[2] = 79;
-		i[3] = 88;
+		int i[] = new int[10];
+		i[0] = 10;
+		i[1] = 20;
+		i[2] = 30;
+		i[3] = 40;
+		i[4] = 50;
+		i[5] = 60;
+		i[6] = 70;
+		i[7] = 80;
+		i[8] = 90;
+		i[9] = 100;
+		for ( int j = 0; j < i.length; j = j+2)
+		{
+			System.out.println(i[j]);
+		}
+		 
 		return i;
 		
 	}

@@ -6,7 +6,8 @@ public class TestingHere
 {
 
     
-    public static void main(String[] args){
+    public static void main(String[] args)
+    {
     	
     	System.out.println("This is for SDET purpose  : ");	
     	
@@ -55,7 +56,9 @@ public class TestingHere
         
         StaticNonStatic.distanceFromHome();
         
-        System.out.println(arrayConcept.arrayIndexOutOfBoundaryException());
+        //System.out.println(arrayConcept.arrayIndexOutOfBoundaryException());
+        
+        System.out.println(obj.getMarks());
        
 
      

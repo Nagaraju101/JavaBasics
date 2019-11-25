@@ -4,7 +4,8 @@ import java.util.ArrayList;
 
 public class ArrayConcept {
 
-    public boolean[] booleanArray() {
+    public boolean[] booleanArray() 
+    {
         boolean b[] = new boolean[2];
         b[0] = false;
         b[1] = true;
