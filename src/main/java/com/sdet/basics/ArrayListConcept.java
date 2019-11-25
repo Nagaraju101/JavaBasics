@@ -8,7 +8,7 @@ public class ArrayListConcept
 	public void arrayListMethod() 
 	{
 		
-		ArrayList ar = new ArrayList();
+		ArrayList<Object> ar = new ArrayList<Object>();
 		
 		ar.add(100);
 		ar.add(200);
