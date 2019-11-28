@@ -83,6 +83,40 @@ public class StringFunctions {
 			}			
 			return bool;
 		}
+		
+		//Contains
+		public Boolean stringContain(String s, String w)
+		{
+			Boolean bool = false;
+			if(s.contains(w))
+			{
+				bool = true;
+			}
+			else 
+			{
+				bool = false;
+			}
+			return bool;
+			
+		}
+		
+		//Split
+		public String[] stringSplit(String s)
+		{
+			String[] strArray = s.split("-");
+			for ( int i = 0; i< strArray.length; i++)
+			{
+				System.out.println(strArray[i]);
+			}
+			return strArray;
+		}
+		
+		public String getFullName(String s)
+		{	
+			String[] s1 = s.split("-");
+			String fullName = s1[0]+ " " +s1[1];
+			return fullName;
+		}
 }
 
 

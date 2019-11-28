@@ -71,7 +71,11 @@ public class TestingHere
         System.out.println(stringFunctions.getSubStringValue("Transaction id is : 123456"));
         System.out.println(stringFunctions.stringEquals("Welcome", "Welcome"));
         
+        //Contains
+        System.out.println(stringFunctions.stringContain("Welcome to Facebook", "Facebook"));
         
+        System.out.println(stringFunctions.stringSplit("Naga-37-Male-DG-QaTeam"));
+        System.out.println(stringFunctions.getFullName("Naga-Ankamreddi-37-Male-DG-QaTeam"));
          
        
 
