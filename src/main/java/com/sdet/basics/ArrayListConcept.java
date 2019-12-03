@@ -48,8 +48,9 @@ public class ArrayListConcept
 		arStr.add("Sanju");
 		arStr.add("Lucky");
 		arStr.add("Avi");
+		arStr.add("Ankamreddi");
 		
-		System.out.println(arStr.get(3));
+		System.out.println(arStr.get(4));
 		
 		
 		
