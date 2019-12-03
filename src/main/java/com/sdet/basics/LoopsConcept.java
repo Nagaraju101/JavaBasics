@@ -4,7 +4,8 @@ public class LoopsConcept
 {
 	//1. While loop
 	public static int whileLoop()
-	{	int x = 0 ;
+	{	
+		int x = 0 ;
 		while(x < 10 ) 
 		{
 			System.out.println(x);

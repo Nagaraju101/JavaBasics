@@ -1,6 +1,7 @@
 package com.sdet.basics;
 
 import java.util.ArrayList;
+import java.util.Date;
 
 public class TestingHere
 {
@@ -18,6 +19,7 @@ public class TestingHere
         IncrementDecrementConcept incrementDecrement = new IncrementDecrementConcept();
         StaticNonStatic staticNonStatic = new StaticNonStatic();
         ArrayListConcept arrayListConcept = new ArrayListConcept();
+        StringFunctions stringFunctions = new StringFunctions();
         
         System.out.println(stringConcat.getA() + stringConcat.getB());
         System.out.println(stringConcat.getC()+ stringConcat.getD());
@@ -62,6 +64,19 @@ public class TestingHere
         System.out.println(obj.getMarks());
         
         arrayListConcept.arrayListMethod();
+        
+        System.out.println(stringFunctions.stringLength());
+        System.out.println(stringFunctions.stringCompare("Welcome Naga"));
+        
+        System.out.println(stringFunctions.getSubStringValue("Transaction id is : 123456"));
+        System.out.println(stringFunctions.stringEquals("Welcome", "Welcome"));
+        
+        //Contains
+        System.out.println(stringFunctions.stringContain("Welcome to Facebook", "Facebook"));
+        
+        System.out.println(stringFunctions.stringSplit("Naga-37-Male-DG-QaTeam"));
+        System.out.println(stringFunctions.getFullName("Naga-Ankamreddi-37-Male-DG-QaTeam"));
+         
        
 
      
