@@ -2,6 +2,7 @@ package com.sdet.basics;
 
 import java.util.Date;
 
+
 public class StringFunctions {
 	Date date = new Date();
 	public int stringLength() {
@@ -118,5 +119,6 @@ public class StringFunctions {
 			return fullName;
 		}
 }
+
 
 
