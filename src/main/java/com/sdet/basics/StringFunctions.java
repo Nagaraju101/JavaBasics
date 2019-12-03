@@ -2,23 +2,7 @@ package com.sdet.basics;
 
 import java.util.Date;
 
-<<<<<<< HEAD
-public class StringFunctions 
-{
-	
-	public void stringUsages()
-	{
-		
-	}
-	
-	public static void main(String[] args) 
-	{
-		Date date = new Date();
-		System.out.println(date);
-	}
 
-}
-=======
 public class StringFunctions {
 	Date date = new Date();
 	public int stringLength() {
@@ -137,4 +121,4 @@ public class StringFunctions {
 }
 
 
->>>>>>> master
+
