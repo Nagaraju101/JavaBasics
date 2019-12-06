@@ -38,9 +38,6 @@ public class ArrayListConcept
 		arInt.add(444);
 		System.out.println(arInt.size());
 		System.out.println(arInt.get(1));
-		
-
-		
 		//If want restrict to only String Array
 		
 		ArrayList<String> arStr = new ArrayList<String>();
@@ -49,13 +46,7 @@ public class ArrayListConcept
 		arStr.add("Lucky");
 		arStr.add("Avi");
 		arStr.add("Ankamreddi");
-		
 		System.out.println(arStr.get(4));
-		
-		
-		
-		
-		
 	}
 	
 

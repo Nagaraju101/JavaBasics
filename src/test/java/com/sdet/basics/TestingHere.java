@@ -2,6 +2,7 @@ package com.sdet.basics;
 
 import java.util.ArrayList;
 import java.util.Date;
+import java.util.LinkedList;
 
 public class TestingHere
 {
@@ -21,6 +22,13 @@ public class TestingHere
         ArrayListConcept arrayListConcept = new ArrayListConcept();
         StringFunctions stringFunctions = new StringFunctions();
         
+        CenturaHospitals centuraHospitals  = new CenturaHospitals();
+        UkHospitals ukH = new CenturaHospitals();
+        UsHospitals usH = new CenturaHospitals();
+        IndianHospitals indH = new CenturaHospitals();
+        LinkedListConcept linkedList = new LinkedListConcept();
+       
+       
         System.out.println(stringConcat.getA() + stringConcat.getB());
         System.out.println(stringConcat.getC()+ stringConcat.getD());
     
@@ -32,8 +40,10 @@ public class TestingHere
         System.out.println(arrayConcept.doublArray());
         System.out.println(arrayConcept.stringArray());
         System.out.println(arrayConcept.objectArray());
+        System.out.println(arrayConcept.addAllValues());
         
         
+    /*
         obj.test();
         obj.getStudentNames();
         System.out.println(obj.devision(55, 7));
@@ -76,9 +86,25 @@ public class TestingHere
         
         System.out.println(stringFunctions.stringSplit("Naga-37-Male-DG-QaTeam"));
         System.out.println(stringFunctions.getFullName("Naga-Ankamreddi-37-Male-DG-QaTeam"));
-         
-       
-
+        
+        centuraHospitals.clinicalServices();
+        centuraHospitals.emergencyServices();
+        centuraHospitals.IPDServices();
+        centuraHospitals.OPDServices();
+        centuraHospitals.orthopedicServices();
+        centuraHospitals.neuroServices();
+        centuraHospitals.pathologyServices();
+        centuraHospitals.physioServices();
+        
+        ukH.emergencyServices();
+        
+        System.out.println(UkHospitals.hospital);
+        System.out.println(UsHospitals.hospital); 
+        System.out.println(IndianHospitals.hospital);
+		*/
      
+        LinkedList<String> ll = linkedList.getLinkedList();
+        System.out.println(ll);
+        
     }
 }
